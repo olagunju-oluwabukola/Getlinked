@@ -1,0 +1,40 @@
+ *{
+  margin: 0;
+  padding: 0;
+ 
+ }
+
+.v-main{
+  background: radial-gradient(
+    circle closest-corner at left 100px,
+    #D434FE,
+    #150E28 200%
+  ) repeat-y;
+
+
+}
+.nav-menu {
+margin-right: 4em;
+text-decoration: none ;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.title{
+  font-size: 2em;
+}
+.register{
+  background: linear-gradient(#903aff, #D434FE);
+  text-transform: capitalize;
+  
+}
+
+.register a{
+padding-bottom: 1em;
+}
+
+span{
+  color:  #D434FE;
+}
