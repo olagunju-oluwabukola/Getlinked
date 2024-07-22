@@ -46,9 +46,6 @@
 
 .bigImg{
     width: 600px;
-    /* background: url('../assets/Images/Ellipse 2.png');
-    background-repeat: no-repeat;
-    background-size: 60px; */
     margin: 70px;
 }
 .one{
@@ -56,6 +53,7 @@
     margin-bottom: 70px;
     margin-left: 90px;
     width: 20px;
+    animation: blink 1s linear infinite;
 }
 
 .two{
@@ -63,6 +61,7 @@
     margin-top: 320px;
     margin-left: 400px;
     width: 20px;
+    animation: blink 1s linear infinite;
 }
 
 .three{
@@ -70,6 +69,7 @@
     margin-top: 600px;
     margin-left: 750px;
     width: 20px;
+    animation: blink 1s linear infinite;
 }
 
 .eclipse{
@@ -97,7 +97,6 @@ button{
     width: 500px;
     line-height: 2em;
     margin-bottom: 1em;
-  
 }
 
 h3{
@@ -105,4 +104,12 @@ h3{
 font-size: 25px;
 margin-bottom: 20px;
 }
+
+@keyframes blink {
+    0%, 100%{ filter: brightness(50%);
+    }
+    50%{
+        filter: brightness(100%);
+    }
+    }
 </style>

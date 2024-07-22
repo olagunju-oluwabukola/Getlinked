@@ -30,23 +30,22 @@
         <img src="../assets/Images/star.png" alt="">
        </div>
        <div class="timer">
-        <h1>
-            00<span>H</span>   00<span>M</span>   00<span>S</span>
-        </h1>
+        <timeCount/>
        </div>
     </v-flex>
 
     <v-flex class="desc-img">
-        
-        <img class="two" src="../assets/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png" alt="">
+        <img class="man-img" src="../assets/Images/man-wearing-smart-glasses-touching-virtual-screen 1.png">
+        <img class="two" src="../assets/Images/Image 1.png" alt="">
     </v-flex>
 </v-layout>
 </template>
 
 <script>
 import RegButton from './RegButton.vue';
+import TimeCount from './TimeCount.vue';
 export default{
-    components:{RegButton}
+    components:{RegButton, TimeCount}
 }
 </script>
 
@@ -77,10 +76,12 @@ img{
     width: 15px;
     position: absolute;
     margin-left: 23em;
+    animation: blink 1s linear infinite;
 }
 .star-l img{
     width: 15px;
     margin-left: 80px;
+    animation: blink 1s linear infinite;
 }
 .desc h1{
     font-size: 6em;
@@ -100,17 +101,31 @@ desc{
 
 .timer{
     margin-top: 25px;
+    font-size:25px;
 }
-.timer span{
-    color: #ffffff;
-    font-size: 7px;
-}
-
-.desc-img img{
-width: 40vw;
-background: url('../assets/Images/Image 1.png');
+.desc-img{
+    margin-left: 3em;
+    margin-bottom: 5em;
 }
 
+.man-img{
+    position: absolute;
+    margin-bottom: 5em;
+    width: 40vw;
+}
+.desc-img .two{
+    position: absolute;
+    width: 30vw;
+    animation: sun 2s linear infinite ;
+}
+@keyframes sun{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
 .light{
     position: absolute;
     margin-left: 440px;
@@ -120,7 +135,18 @@ background: url('../assets/Images/Image 1.png');
     width: 15px;
     position: absolute;
     margin-left: 500px;
+    animation: blink 1s linear infinite;
 }
+
+@keyframes blink {
+    0%, 100%{ filter: brightness(50%);
+    }
+    50%{
+        filter: brightness(100%);
+    }
+    }
+    
+
 
 
 </style>

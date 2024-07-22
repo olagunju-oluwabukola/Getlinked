@@ -32,6 +32,8 @@ export default {
   position: absolute;
   margin-top: 180px;
   width: 20px;
+  animation: blink 1s linear infinite;
+
 }
 
 .arrow{
@@ -40,6 +42,8 @@ export default {
   margin-right:100px;
   width: 40px;
   width: 35px;
+  animation: blink 1s linear infinite;
+
 }
 .container{
   justify-content: space-between;
@@ -61,5 +65,15 @@ margin-bottom: 20px;
   position: absolute;
   margin-left: 400px;
   width: 20px;
+  animation: blink 1s linear infinite;
+
 }
+
+@keyframes blink {
+    0%, 100%{ filter: brightness(50%);
+    }
+    50%{
+        filter: brightness(100%);
+    }
+    }
 </style>

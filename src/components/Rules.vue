@@ -53,6 +53,7 @@ margin-left: 70px;
   position: absolute;
   margin-left: 280px;
   width: 20px;
+  animation: blink 1s linear infinite;
 }
 
 .two{
@@ -61,6 +62,15 @@ margin-left: 70px;
   margin-bottom: 20px;
   width: 40px;
   width: 20px;
+  animation: blink 1s linear infinite;
 }
+
+@keyframes blink {
+    0%, 100%{ filter: brightness(50%);
+    }
+    50%{
+        filter: brightness(100%);
+    }
+    }
 
 </style>

@@ -1,6 +1,6 @@
 
 <template>
-  <v-card class="">
+  <v-card>
     <v-layout>
       <v-app-bar
         color="#150E28"
@@ -20,9 +20,7 @@
         <RouterLink to="/faqs">FAQs</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
         <reg-button/>
-        
       </nav>
-
           </v-flex>
         </template>
 
@@ -59,6 +57,8 @@
            <hr>
            <criteria/>
            <hr>
+           <faq-comp/>
+           <hr>
           </router-view>
         </v-card-text>
       </v-main>
@@ -68,14 +68,15 @@
 
 <script>
 
-import Heading from './components/Heading.vue'
 import RegButton from './components/RegButton.vue';
 import Introduction from './components/Introduction.vue';
 import Rules from './components/Rules.vue'
 import Criteria from './components/Criteria.vue'
+import Heading from './components/Heading.vue';
+import FaqComp from './components/FaqComp.vue'
 
   export default {
-    components: {Heading, RegButton,Introduction, Rules, Criteria},
+    components: {Heading, RegButton,Introduction, Rules, Criteria,FaqComp},
     data: () => ({
       drawer: false,
       group: null,
@@ -125,7 +126,6 @@ nav a {
 hr{
 border: 1px solid #D434FE;
 font-size: 3px;
-
 }
 
 
