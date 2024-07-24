@@ -1,5 +1,5 @@
 <template>
-        <div>
+        <div class="heading">
         <h2>
             Igniting a Revolution in HR Inovation
         </h2>
@@ -17,7 +17,7 @@
 <v-layout>
     <v-flex>
         <div class="desc">
-            <img class='light' src="../assets/Images/1531010992wink-emoji-woman-png 1.png" alt="">
+            <img class='light' src="../assets/Images/Creative 1.png" alt="">
             <h1>getlinked Tech <br> Hackathon <span style="color: #D434FE;">1.0</span> 
                 <img src="../assets/Images/chain-9365116-7621444.png">
                 <img src="../assets/Images/1f4a5.png" >
@@ -118,6 +118,7 @@ desc{
     width: 30vw;
     animation: sun 2s linear infinite ;
 }
+
 @keyframes sun{
     0%{
         transform: translateX(0);
@@ -128,8 +129,9 @@ desc{
 }
 .light{
     position: absolute;
-    margin-left: 440px;
+    margin-left: 450px;
 }
+
 
 .img-3 img{
     width: 15px;

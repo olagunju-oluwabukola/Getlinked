@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 button{
   background: linear-gradient(#903aff, #D434FE);

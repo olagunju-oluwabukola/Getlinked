@@ -1,9 +1,15 @@
 <template>
-  <div>
-    <h1>Timeline</h1>
-  </div>
+<Timeline/>
 </template>
 
 <style>
 
 </style>
+<script>
+import Timeline from '@/components/Timeline.vue';
+export default{
+  components:{
+    Timeline
+  }
+}
+</script>

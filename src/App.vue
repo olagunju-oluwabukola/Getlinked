@@ -48,18 +48,9 @@
 <hr>
       <v-main class="v-main">
         <v-card-text>
-          <router-view>
-            <Heading/>
-            <hr>
-            <Introduction/>
-           <hr>
-           <Rules/>
-           <hr>
-           <criteria/>
-           <hr>
-           <faq-comp/>
-           <hr>
-          </router-view>
+          <router-view/>
+          <hr>
+          <footer-comp/>
         </v-card-text>
       </v-main>
     </v-layout>
@@ -67,16 +58,10 @@
 </template>
 
 <script>
-
 import RegButton from './components/RegButton.vue';
-import Introduction from './components/Introduction.vue';
-import Rules from './components/Rules.vue'
-import Criteria from './components/Criteria.vue'
-import Heading from './components/Heading.vue';
-import FaqComp from './components/FaqComp.vue'
-
+import FooterComp from './components/FooterComp.vue';
   export default {
-    components: {Heading, RegButton,Introduction, Rules, Criteria,FaqComp},
+  components: { FooterComp, RegButton},
     data: () => ({
       drawer: false,
       group: null,
@@ -116,7 +101,7 @@ import FaqComp from './components/FaqComp.vue'
 </script>
       
 
-<style scoped>
+<style>
 nav a {
   display: inline-block;
   padding: 0 1rem;
