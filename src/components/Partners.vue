@@ -73,7 +73,8 @@
     }
     @media only screen and (max-width: 768px){
         .text p{
-           width: 350px;
+           width: 300px;
+           font-size: 15px;
         }
 
         .logos{

@@ -90,6 +90,11 @@ display: block;
   width: 70vw;
 }
 
+.bigIdea{
+  width: 270px;
+text-align: center;
+}
+
 .text img{
   position: absolute;
   margin-left: 10px;

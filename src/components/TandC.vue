@@ -134,6 +134,10 @@ color: #fff;
             margin-top: 70px;
             margin-left: -5em;
         }
+
+        .text h2{
+    font-size: 32px;
+}
     }
 </style>
 <script>

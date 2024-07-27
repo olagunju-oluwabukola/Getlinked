@@ -120,10 +120,11 @@ margin-bottom: 20px;
     @media only screen and (max-width: 900px){
         .container{
    display: block;
-    margin-top: 70px;
+  
 }
 .bigImg{
-    width: 100px;
+    width: 370px;
+    margin-left: 10px;
 }
 .text{
    text-align: center;
@@ -132,6 +133,14 @@ margin-bottom: 20px;
     margin-bottom: 700px;
     line-height: 2em;
     width: 85vw;
+}
+
+.eclipse{
+    position: absolute;
+    width: 90px;
+    margin-top: 60px;
+    margin-left: 60px;
+    z-index: -1;
 }
 
 button{

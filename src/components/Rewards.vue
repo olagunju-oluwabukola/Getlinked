@@ -175,20 +175,20 @@ margin-left: 100px;
 }
 .bronze{
     position: absolute;
-    margin-left: 95px;
+    margin-left: 50px;
     width: 100px;
 }
 
 .gold{
     position: absolute;
-    margin-left: -45px;
+    margin-left: -60px;
     margin-bottom: 20px;
     width: 125px;
 }
 
 .silver{
 position: absolute;
-margin-left: -160px;
+margin-left: -150px;
 width: 100px;
 }
 
@@ -199,7 +199,7 @@ width: 100px;
     height: 20vh;
     border-radius: 10px;
     margin-top: 90px;
-    font-size: 20px;
+    font-size: 12px;
     padding: 5px;
 }
 .box-container{
@@ -207,7 +207,7 @@ width: 100px;
 }
 
 .diff{
-    font-size: 20px;
+    font-size: 12px;
     padding: 5px;
 } 
 
@@ -216,7 +216,7 @@ width: 100px;
     width: 400px;
 }
 .box .text, .diff .text{
- padding-top: 3em;
+ padding-top: 2em;
 }
     }
     

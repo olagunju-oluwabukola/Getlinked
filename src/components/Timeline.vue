@@ -291,14 +291,14 @@ margin-top: 30px;
 }
 
 .text-leftt .text1{
-margin-bottom: 15px;
-margin-top: 18px;
+margin-bottom: 25px;
+margin-top: 20px;
 line-height: 2em;
 }
 
 .text-leftt .text2{
 margin-bottom: 18px;
-margin-top: 27px;
+margin-top: 35px;
 line-height: 2em;
 }
 

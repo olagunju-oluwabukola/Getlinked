@@ -104,7 +104,7 @@ text-align: center;
 }
 .big-img{
   width: 370px;
- margin: 70px;
+  margin-left: 2em;
 }
 
 .text h3{
