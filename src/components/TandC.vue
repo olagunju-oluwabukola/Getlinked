@@ -1,5 +1,5 @@
 <template>
-    <v-layout>
+    <v-layout class="container">
         <v-flex class="first-div">
             <div class="text">
                 <img class="purple" src="../assets/Images/star pu.png" alt="">
@@ -24,7 +24,7 @@ to the practices described in this policy.</p>
 <h3><span>Licensing Policy</span></h3>
 <img class="purple" src="../assets/Images/star pu.png" alt="">
             <img class="light" src="../assets/Images/star.png">
-<p>Here are terms of our Standard License:</p>
+<p class="second">Here are terms of our Standard License:</p>
 <li>The Standard License grants you a non-exclusive right to
     navigate and register for our event</li>
 <li>You are licensed to use the item available at any free source
@@ -37,7 +37,6 @@ to the practices described in this policy.</p>
         </v-flex>
 
         <v-flex class="img">
-            <img class="lock" src="" alt="">
             <img class="avatar" src="../assets/Images/08 1.png" alt="">
             <img class="purple" src="../assets/Images/star pu.png" alt="">
             <img class="light" src="../assets/Images/star.png">
@@ -108,7 +107,33 @@ color: #fff;
         filter: brightness(100%);
     }
     }
+    @media only screen and (max-width: 768px){
 
+        .container{
+            display: block;
+        }
+        .text{
+            text-align: center;
+        }
+
+        .bordered-text{
+            text-align: center;
+        }
+
+       .bordered-text .first {
+            width: 60vh;
+        }
+
+        .bordered-text .second{
+            width: 70vh;
+        }
+
+        .avatar{
+            width: 270px;
+            background-size: cover;
+            margin-top: 70px;
+        }
+    }
 </style>
 <script>
 import RegButton from './RegButton.vue';

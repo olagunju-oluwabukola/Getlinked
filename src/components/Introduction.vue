@@ -76,4 +76,27 @@ margin-bottom: 20px;
         filter: brightness(100%);
     }
     }
+
+
+      /* mediaQueries phone */
+
+      @media only screen and (max-width: 768px){
+
+        .container{
+display: block;
+}
+.text{
+  text-align: center;
+  width: 55vh;
+  line-height: 2em;
+}
+
+.text img{
+  position: absolute;
+  margin-left: 200px;
+  width: 20px;
+  animation: blink 1s linear infinite;
+
+}
+}
 </style>

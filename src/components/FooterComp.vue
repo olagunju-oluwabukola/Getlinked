@@ -103,4 +103,14 @@ li img{
         filter: brightness(100%);
     }
 }
+
+@media only screen and (max-width: 768px){
+    .container{
+        display: block;
+    }
+
+    .first p{
+width: 80vw;
+}
+}
 </style>

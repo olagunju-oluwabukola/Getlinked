@@ -4,7 +4,7 @@
             <img class="two" src="../assets/Images/star.png">
             <img class ='three' src="../assets/Images/star (1).png" >
             <img class="one" src="../assets/Images/star pu.png" >
-            <img class="eclipse" src="../assets/Images/Ellipse 2.png" alt="">
+            <img class="eclipse" src="../assets/Images/Ellipse 2.png" >
             <img class="bigImg" src="../assets/Images/8046554 1.png" >
         </v-flex>
 
@@ -30,9 +30,10 @@
             <p> <span>Adherence to Hackathon Rules:</span>
                 Judges will ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and other competition-specific requirements.
              </p>
+             <button>Read More</button>
             </div>
             
-             <button>Read More</button>
+            
         </v-flex>
     </v-layout>
 </template>
@@ -86,6 +87,7 @@ button{
   outline: none;
   border: none;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .text{
@@ -111,5 +113,37 @@ margin-bottom: 20px;
     50%{
         filter: brightness(100%);
     }
+    }
+
+    /* mediaQueries phone */
+
+    @media only screen and (max-width: 768px){
+        .container{
+   display: block;
+    margin-top: 70px;
+}
+.bigImg{
+    width: 300px;
+    margin: 70px;
+}
+.text{
+   text-align: center;
+}
+.list p{
+margin: 20px;
+width: 75vw;
+}
+button{
+  background: linear-gradient(#903aff, #D434FE);
+  height: 7vh;
+  width: 17vw;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.three{
+    position: absolute;
+    margin-top: 1110px;
+    margin-left: 10px;
+}
     }
 </style>

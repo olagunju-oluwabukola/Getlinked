@@ -28,7 +28,7 @@
           <!-- <v-btn icon="mdi-magnify" variant="text"></v-btn>
 
           <v-btn icon="mdi-filter" variant="text"></v-btn> -->
-          <v-app-bar-nav-icon  variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon  variant="text"   color="#150E28" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         </template>
 
       </v-app-bar>
@@ -37,12 +37,15 @@
         v-model="drawer"
         :location="$vuetify.display.mobile ? 'right' : undefined"
         temporary
+        color="#150E28"
+        class="li"
       >
-        <v-list
+        <v-list class="list"
           :items="items"
           v-for="item in items" :key="item.route" 
          
           @click="$router.push({path: item.route})"
+          color="#150E28"
         >      <v-list-tile-title> {{ item.text }}</v-list-tile-title></v-list>
       </v-navigation-drawer>
 <hr>
@@ -105,7 +108,7 @@ import FooterComp from './components/FooterComp.vue';
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+
 }
 
 hr{
@@ -113,5 +116,10 @@ border: 1px solid #D434FE;
 font-size: 3px;
 }
 
-
+.list{
+  margin-left: 20px;
+  background-color:  #150E28 ;
+  color: #ffffff;
+  height: 20px;
+}
 </style>

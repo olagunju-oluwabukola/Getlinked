@@ -14,7 +14,7 @@
     <div class="star-l">
         <img src="../assets/Images/star (1).png" alt="">
     </div>
-<v-layout>
+<v-layout class="container">
     <v-flex>
         <div class="desc">
             <img class='light' src="../assets/Images/Creative 1.png" alt="">
@@ -22,10 +22,13 @@
                 <img src="../assets/Images/chain-9365116-7621444.png">
                 <img src="../assets/Images/1f4a5.png" >
             </h1>
-            <p>Participate in getlinked tech Hackathon 2023 and stand <br> a chance to win a big price </p>
+            <p>Participate in getlinked tech Hackathon 2023 and stand a chance to win a big price </p>
         </div>
-        
-       <reg-button/>
+        <div class="regBtn">
+            <reg-button/>
+
+        </div>
+       
        <div class="img-3">
         <img src="../assets/Images/star.png" alt="">
        </div>
@@ -59,6 +62,7 @@ span{
 }
 h2{
     text-align: end;  
+    font-style: italic;
 }
 
 .img{
@@ -93,6 +97,7 @@ img{
 .desc p{
 font-size: 20px;
 margin-bottom: 20px;
+width: 460px;
 
 }
 desc{
@@ -147,8 +152,53 @@ desc{
         filter: brightness(100%);
     }
     }
-    
 
 
+    /* mediaQueries phones */
+    @media only screen and (max-width: 768px){
+        *{
+    text-align: center;
+}
+h2{
+    text-align: center;  
+    margin-top: 20px;
+}
+
+.img{
+    text-align: center;
+    margin-left: 200px;
+}
+.container  {
+    display: grid;
+}
+.desc h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.desc p{
+font-size: 20px;
+width: 370px;
+margin-bottom: 20px;
+margin-left: 50px;
+}
+.light{
+    position: absolute;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.desc-img{
+    margin-top: 5px;
+    height: 20vh;
+    width: 30vw;
+}
+
+    }
+      /* mediaQueries tablet */
+
+    @media only screen and (max-width: 768px){
+
+    }
 
 </style>

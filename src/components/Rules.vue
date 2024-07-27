@@ -1,7 +1,7 @@
 <template>
   <v-layout class="container">
     <v-flex>
-        <div>
+        <div class="text">
             <img class='one' src="../assets/Images/star.png" alt="">
             <h3>Rules and <br>
           <span>  Guidelines</span>
@@ -72,5 +72,39 @@ margin-left: 70px;
         filter: brightness(100%);
     }
     }
+ /* mediaQueries phone */
 
+ @media only screen and (max-width: 768px){
+
+.container{
+display: block;
+text-align: center;
+  }
+
+  .text p{
+    width: 70vw;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .one{
+  position: absolute;
+  margin-left: 100px;
+  width: 20px;
+  animation: blink 1s linear infinite;
+}
+
+.two{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 7pt;
+  width: 40px;
+  width: 20px;
+  animation: blink 1s linear infinite;
+}
+.big-img{
+  width: 370px;
+ margin: 70px;
+}
+}
 </style>

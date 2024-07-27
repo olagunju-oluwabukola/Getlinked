@@ -71,6 +71,22 @@
         filter: brightness(100%);
     }
     }
+    @media only screen and (max-width: 768px){
+        .text p{
+           width: 450px;
+        }
 
+        .logos{
+    text-align: center;
+    border: 1px solid hsl(288, 99%, 60%);
+    margin-top: 40px;
+    width: 85vw;
+}
+.logos img{
+    width: 40px;
+   padding: 20px;
+   margin: 5px;
+}
+    }
 
 </style>

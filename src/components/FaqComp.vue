@@ -1,5 +1,5 @@
 <template>
-    <v-layout>
+    <v-layout class="container">
         <v-flex class='faq'>
             <img class='one' src="../assets/Images/star pu.png" alt="">
             <div class="text">
@@ -7,7 +7,7 @@
                 <p>We got answers to the questions that you might <br>
                     want to ask about<span style="font-weight: 700; color: #fff;"> getlinked Hackathon 1.0</span></p>
             </div>
-            <div>
+            <div class="expansion-panel">
                 <v-expansion-panels>
       <v-expansion-panel class="panel">
         <v-expansion-panel-title collapse-icon="mdi-minus" expand-icon="mdi-plus" class="pannel" >
@@ -178,6 +178,38 @@ width: 470px;
     50%{
         filter: brightness(100%);
     }
+    }
+
+    @media only screen and (max-width: 768px){
+        .container{
+            display: block;
+        }
+
+        .text h2, .faq{
+            text-align: center;
+        }
+
+        .expansion-panel{
+           margin: 20px;
+        }
+
+        .imgs .bigImg{
+        width: 370px;
+        margin: 20px;
+        }
+
+        .s1{
+    margin-top: 20px;
+}
+
+.s2{
+    margin-left: 400px;
+}
+.s3{
+    margin-top: 400px;
+  
+}
+
     }
 
 </style>

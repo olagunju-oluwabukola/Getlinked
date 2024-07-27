@@ -1,5 +1,5 @@
 <template>
-    <v-layout>
+    <v-layout class="container">
         <v-flex class="flex-left">
             <img class="four" src="../assets/Images/star pu.png" alt="">
             <img class="bigImg" src="../assets/Images/9486889 1.png">
@@ -161,5 +161,39 @@ margin-left: 100px;
     50%{
         filter: brightness(100%);
     }
+    }
+    @media only screen and (max-width: 768px){
+
+        .container{
+            display: block;
+            text-align: center;
+        }
+
+        .bigImg{
+    width: 370px;
+    margin: 70px;
+}
+.bronze{
+    position: absolute;
+    margin-left: 70px;
+    width: 95px;
+
+}
+
+.gold{
+    position: absolute;
+    margin-left: -60px;
+    width: 120px;
+  
+   
+}
+
+.silver{
+position: absolute;
+margin-left: -170px;
+    width: 100px;
+  
+}
+
     }
 </style>
