@@ -16,7 +16,7 @@
            <Partners/>
            <hr>
            <TandC/>
-           <FooterComp/>
+          
 </template>
 
 <script>

@@ -112,5 +112,18 @@ li img{
     .first p{
 width: 80vw;
 }
+
+.one{
+
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.two{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
 }
 </style>

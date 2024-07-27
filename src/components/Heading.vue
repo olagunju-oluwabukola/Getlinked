@@ -18,9 +18,9 @@
     <v-flex>
         <div class="desc">
             <img class='light' src="../assets/Images/Creative 1.png" alt="">
-            <h1>getlinked Tech <br> Hackathon <span style="color: #D434FE;">1.0</span> 
-                <img src="../assets/Images/chain-9365116-7621444.png">
-                <img src="../assets/Images/1f4a5.png" >
+            <h1>getlinked Tech Hackathon <span style="color: #D434FE;">1.0</span> 
+                <div class="desc-chain"><img src="../assets/Images/chain-9365116-7621444.png">
+                    <img src="../assets/Images/1f4a5.png" ></div>
             </h1>
             <p>Participate in getlinked tech Hackathon 2023 and stand a chance to win a big price </p>
         </div>
@@ -63,6 +63,7 @@ span{
 h2{
     text-align: end;  
     font-style: italic;
+ 
 }
 
 .img{
@@ -90,6 +91,7 @@ img{
 .desc h1{
     font-size: 6em;
     font-weight: 900;
+    width: 50vw;
 }
 .desc img{
     width: 30px; 
@@ -102,6 +104,12 @@ width: 460px;
 }
 desc{
     display: flex;
+}
+
+.desc-chain{
+    position: absolute;
+margin-top: -100px;
+margin-left: 520px;
 }
 
 .timer{
@@ -155,45 +163,57 @@ desc{
 
 
     /* mediaQueries phones */
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 900px){
         *{
     text-align: center;
 }
 h2{
     text-align: center;  
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .img{
-    text-align: center;
-    margin-left: 200px;
+    margin-right: 20px;
 }
 .container  {
     display: grid;
 }
 .desc h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
+    width: 80vw;
 }
 
 .desc p{
-font-size: 20px;
-width: 370px;
+font-size: 18px;
+width: 90vw;
 margin-bottom: 20px;
-margin-left: 50px;
+margin-top: 10px;
 }
-.light{
-    position: absolute;
-    margin-left: 110px;
-    margin-bottom: 20px;
+.desc-img img{
+    width: 70vw;
+    margin-left: -7em;
 }
-
 .desc-img{
     margin-top: 5px;
     height: 20vh;
-    width: 30vw;
+    width: 50vw;
+}
+.desc-chain{
+    position: absolute;
+margin-top: -30px;
+margin-left: 260px;
 }
 
+.desc-img .two{
+    width: 15em;
+
+}
+
+.desc-chain img{
+    width: 20px;
+}
     }
       /* mediaQueries tablet */
 

@@ -121,17 +121,18 @@ color: #fff;
         }
 
        .bordered-text .first {
-            width: 60vh;
+            width: 80vw;
         }
 
         .bordered-text .second{
-            width: 70vh;
+            width: 40vh;
         }
 
         .avatar{
             width: 270px;
             background-size: cover;
             margin-top: 70px;
+            margin-left: -5em;
         }
     }
 </style>

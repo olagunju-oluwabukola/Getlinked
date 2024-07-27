@@ -8,7 +8,7 @@
  <div class="timeline">
     <h1>Timeline</h1>
     <h4>
-        Here isnthe breakdown of the time we anticipate <br/>
+        Here is the breakdown of the time we anticipate <br/>
         using for the upcoming event
     </h4>
  </div>
@@ -41,32 +41,32 @@
  
 <div class="list-left">
 <div class="list-container">
-    <div class="list">
+    <div class="list1">
 <div class="line"> 
 </div>
 <p>1</p>
  </div>
- <div class="list">
+ <div class="list2">
 <div class="line"> 
 </div>
 <p>2</p>
  </div>
- <div class="list">
+ <div class="list3">
 <div class="line"> 
 </div>
 <p>3</p>
  </div>
- <div class="list">
+ <div class="list4">
 <div class="line"> 
 </div>
 <p>4</p>
  </div>
- <div class="list">
+ <div class="list5">
 <div class="line"> 
 </div>
 <p>5</p>
  </div>
- <div class="list">
+ <div class="list6">
 <div class="line"> 
 </div>
 <p>6</p>
@@ -108,32 +108,32 @@
     <section>
         <div class="list-left">
 <div class="list-container">
-    <div class="list">
+    <div class="list1">
 <div class="line"> 
 </div>
 <p>1</p>
  </div>
- <div class="list">
+ <div class="list2">
 <div class="line"> 
 </div>
 <p>2</p>
  </div>
- <div class="list">
+ <div class="list3">
 <div class="line"> 
 </div>
 <p>3</p>
  </div>
- <div class="list">
+ <div class="list4">
 <div class="line"> 
 </div>
 <p>4</p>
  </div>
- <div class="list">
+ <div class="list5">
 <div class="line"> 
 </div>
 <p>5</p>
  </div>
- <div class="list">
+ <div class="list6">
 <div class="line"> 
 </div>
 <p>6</p>
@@ -188,20 +188,23 @@
 <style scoped>
 section{
     display: none;
-}
+} 
 .container{
     color: #fff;
 }
 .line{
     border-left: 3px solid #D434FE;
-    height: 80px;
-   margin: 10px;
+    height: 90px;
+   margin-left: 10px;
+   margin-top: 5px;
+    
 }
-.list p{
+.list-container p{
     background: #D434FE;
     width: 20px;
     border-radius: 50%;
     text-align: center;
+    margin-bottom: 2px;
 }
 .timeline{
     text-align: center;
@@ -276,7 +279,7 @@ margin-top: 30px;
     }
 
 
-    section .text-container{
+     section .text-container{
         line-height: 2em;
     }
 
@@ -330,10 +333,10 @@ line-height: 1.7em;
     border-left: 3px solid #D434FE;
     height: 100px;
    margin: 10px;
-}
+} 
 
 
-@media only screen and (max-width: 768px){
+ @media only screen and (max-width: 768px){
         .timeline-outline{
             display: none;
         }
@@ -341,5 +344,5 @@ line-height: 1.7em;
         section{
             display: block;
         }
-    }
+    } 
 </style>

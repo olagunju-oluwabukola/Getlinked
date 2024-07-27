@@ -32,7 +32,11 @@ a{ color: #ffffff;
 @media only screen and (max-width: 768px){
   button{
     height: 6.5vh;
-  width: 20vw;
+  width: 30vw;
+  }
+
+  a{
+    font-size: 18px;
   }
 }
 </style>

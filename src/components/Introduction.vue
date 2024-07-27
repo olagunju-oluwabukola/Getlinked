@@ -80,23 +80,27 @@ margin-bottom: 20px;
 
       /* mediaQueries phone */
 
-      @media only screen and (max-width: 768px){
+      @media only screen and (max-width: 900px){
 
         .container{
 display: block;
 }
 .text{
-  text-align: center;
-  width: 55vh;
   line-height: 2em;
+  width: 70vw;
 }
 
 .text img{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 10px;
+  margin-top: 50px;
   width: 20px;
   animation: blink 1s linear infinite;
-
+}
+.arrow{
+  position: absolute;
+  margin-top: -25px;
+  margin-left:200px;
 }
 }
 </style>

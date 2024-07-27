@@ -170,30 +170,54 @@ margin-left: 100px;
         }
 
         .bigImg{
-    width: 370px;
-    margin: 70px;
+    width: 300px;
+    margin: 5px;
 }
 .bronze{
     position: absolute;
-    margin-left: 70px;
-    width: 95px;
-
+    margin-left: 95px;
+    width: 100px;
 }
 
 .gold{
     position: absolute;
-    margin-left: -60px;
-    width: 120px;
-  
-   
+    margin-left: -45px;
+    margin-bottom: 20px;
+    width: 125px;
 }
 
 .silver{
 position: absolute;
-margin-left: -170px;
-    width: 100px;
-  
+margin-left: -160px;
+width: 100px;
 }
 
+.box{
+    border: 1px solid hsl(288, 99%, 60%);
+    color: #fff;
+    width: 100px;
+    height: 20vh;
+    border-radius: 10px;
+    margin-top: 90px;
+    font-size: 20px;
+    padding: 5px;
+}
+.box-container{
+    margin-left: 1em;
+}
+
+.diff{
+    font-size: 20px;
+    padding: 5px;
+} 
+
+.diff{ 
+    height: 25vh;
+    width: 400px;
+}
+.box .text, .diff .text{
+ padding-top: 3em;
+}
     }
+    
 </style>

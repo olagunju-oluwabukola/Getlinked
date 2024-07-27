@@ -117,28 +117,30 @@ margin-bottom: 20px;
 
     /* mediaQueries phone */
 
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 900px){
         .container{
    display: block;
     margin-top: 70px;
 }
 .bigImg{
-    width: 300px;
-    margin: 70px;
+    width: 100px;
 }
 .text{
    text-align: center;
 }
-.list p{
-margin: 20px;
-width: 75vw;
+.list{
+    margin-bottom: 700px;
+    line-height: 2em;
+    width: 85vw;
 }
+
 button{
   background: linear-gradient(#903aff, #D434FE);
-  height: 7vh;
-  width: 17vw;
+  height: 6vh;
+  width: 30vw;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 .three{
     position: absolute;

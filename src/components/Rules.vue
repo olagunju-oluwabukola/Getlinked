@@ -106,5 +106,9 @@ text-align: center;
   width: 370px;
  margin: 70px;
 }
+
+.text h3{
+width: 30vh;
+}
 }
 </style>
